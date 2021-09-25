@@ -20,7 +20,6 @@ func main() {
 	banWordInStr(banned, sliceStrPtr)
 
 	sliceStr := strings.Split(lowerCase, " ")
-
 	result := wordCounter(sliceStr, lowerCase)
 
 	fmt.Print(result)
